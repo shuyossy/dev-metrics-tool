@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MetricstoolApplication<metricstool>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "sak.metricstool.MetricstoolApplication",
+            "projectName": "metricstool",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": "-Dspring.profiles.active=mock"
+        }
+    ]
+}
